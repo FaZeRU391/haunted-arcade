@@ -155,4 +155,4 @@ let mySprite = sprites.create(img`
     ......555....555................
     `, SpriteKind.Player)
 mySprite.setStayInScreen(true)
-controller.moveSprite(mySprite, 300, 300)
+controller.moveSprite(mySprite)
