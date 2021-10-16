@@ -120,3 +120,21 @@ scene.setBackgroundImage(img`
     fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff8888888888888888888888888888888888888888888ffff
     ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff8888888888888888888888888888888888888888ffffff
     `)
+let mySprite = sprites.create(img`
+    . . . . . . . . . . . . . . . . 
+    . . . . . 3 3 3 3 3 3 . . . . . 
+    . . . . 3 3 . . . . 3 3 . . . . 
+    . . . . 3 . . . . . . . 3 . . . 
+    . . . . 3 . 3 . . . 3 . 3 . . . 
+    . . . . 3 . . . . . . . 3 . . . 
+    . . . . 3 . . . . . . . 3 . . . 
+    . . . . 3 . 3 . . . 3 . 3 . . . 
+    . . . . 3 . 3 . . 3 . . 3 . . . 
+    . . . . 3 . 3 . . 3 . . 3 . . . 
+    . . . . . 3 . 3 3 3 . . 3 . . . 
+    . . . . . 3 3 . . . . 3 3 . . . 
+    . . . . . . 3 3 3 3 3 3 . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    `, SpriteKind.Player)
