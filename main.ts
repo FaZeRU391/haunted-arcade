@@ -122,19 +122,21 @@ scene.setBackgroundImage(img`
     `)
 let mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . . 
-    . . . . . 3 3 3 3 3 3 . . . . . 
-    . . . . 3 3 . . . . 3 3 . . . . 
-    . . . . 3 . . . . . . . 3 . . . 
-    . . . . 3 . 3 . . . 3 . 3 . . . 
-    . . . . 3 . . . . . . . 3 . . . 
-    . . . . 3 . . . . . . . 3 . . . 
-    . . . . 3 . 3 . . . 3 . 3 . . . 
-    . . . . 3 . 3 . . 3 . . 3 . . . 
-    . . . . 3 . 3 . . 3 . . 3 . . . 
-    . . . . . 3 . 3 3 3 . . 3 . . . 
-    . . . . . 3 3 . . . . 3 3 . . . 
-    . . . . . . 3 3 3 3 3 3 . . . . 
+    . . . . . f f f f . . . . . . . 
+    . . . . f e e e e f . . . . . . 
+    . . . f e f e e f e f . . . . . 
+    . . f e e e e f e f e f . . . . 
+    . f e e e e e e e e e e f . . . 
+    . f e f e f e e f e f e f . . . 
+    . f e e e e e e e e e e f . . . 
+    . f e f e f e f e f e e f . . . 
+    . . f e e e e e e e e f . . . . 
+    . . . f e e f e e e f . . . . . 
+    . . . . f e e e e f . . . . . . 
+    . . . . . f f f f . . . . . . . 
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player)
+mySprite.setStayInScreen(true)
+controller.moveSprite(mySprite, 300, 300)
